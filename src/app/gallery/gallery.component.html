@@ -1,0 +1,20 @@
+<div class="opis">Sesje poukładane chronologicznie, więc zachęcam do obejrzenia całego portfolio, gdyż nie wszystkie perełki znajdują się na początku.</div>
+<div class="big">
+  <div class="foto">
+	<span 
+  *ngIf="currentPictureIndex > 0"
+  (click)="prev()" class="prev"><</span>
+  <span 
+  *ngIf="currentPictureIndex < pictures.length - 1"
+  (click)="next()" class="next">></span>
+
+  <img src="{{pictures[currentPictureIndex]}}" class="preview">
+</div>
+</div>
+<section>
+	<ul>
+		<li *ngFor="let picture of pictures; let i = index" [class.active]="currentPictureIndex == i" (click)="selectPicture(i)">
+			<app-thumb [src]="picture"></app-thumb>
+		</li>
+	</ul>
+</section>

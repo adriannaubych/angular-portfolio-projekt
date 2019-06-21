@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html{
+  /* position: absolute;
+  top: 0px;
+  left: 0; */
+  /* width: 100%; */
+  /* z-index: -1; */
+  background: url("https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/46985253_1962146290506966_7394249034329751552_o.jpg?_nc_cat=107&_nc_ht=scontent-waw1-1.xx&oh=db527197edea41a34b89f780213fcae8&oe=5D7F7195");
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+    transform: none !important;
+} */
+
+@import "@material/image-list/mdc-image-list";

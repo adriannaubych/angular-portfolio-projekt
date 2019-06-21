@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Pacifico|Shadows+Into+Light+Two&display=swap&subset=latin-ext');
+/* font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Julius Sans One', sans-serif; */
+
+.tlo{
+  background: rgba(255, 255, 255, 0.295);
+}
+
+mat-form-field{
+  min-width: 150px;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.komentarze{
+  padding: 7px;
+}
+
+button{
+  background: rgba(255, 1, 179, 0.39);
+  color: black !important;
+  font-family: 'Caveat', cursive;
+  font-size: 19px !important;
+  margin: 0 0 0 20px;
+  box-shadow: 1px 1px 3px #551237;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-card {
+  max-width: 500px;
+}
+
+.example-header-image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+mat-list-item{
+background: rgba(49, 131, 255, 0.356);
+border-radius: 20px;
+margin: 5px 0px;
+font-weight: bold;
+font-size: 25px !important;
+font-family: 'Caveat', cursive;
+box-shadow: 0px 0px 10px #172effc4;
+}
+
+mat-card{
+  background: rgba(90, 90, 90, 0.644);
+  color: rgba(255, 255, 255, 0.678);
+}
+
+mat-tab-group{
+  max-height: 600px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}

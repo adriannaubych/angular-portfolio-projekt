@@ -1,0 +1,131 @@
+<div class="tlo">
+	<mat-tab-group>
+		<mat-tab class="komentarze">
+			<ng-template mat-tab-label>
+				Komentarze &nbsp;
+				<mat-icon class="example-tab-icon">comment</mat-icon>
+			</ng-template>
+			<mat-form-field class="example-full-width">
+				<input matInput type="text" placeholder="Dodaj komentarz" [(ngModel)]="inputValue"(keyup.enter)="onClick()">
+		    </mat-form-field>
+		    <br>
+		    <button mat-button color="accent" (click)="onClick()">Dodaj!</button>
+		
+		<mat-list class="komentarze">
+		  <mat-list-item role="listitem" *ngFor="let element of todos"><mat-icon mat-list-icon>thumbs_up_down</mat-icon>{{ element }}</mat-list-item>
+		</mat-list>
+		</mat-tab>
+
+<mat-tab>
+	<ng-template mat-tab-label>
+		<mat-icon class="example-tab-icon">description</mat-icon>
+		&nbsp; Referencje
+	</ng-template>
+	<mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>Impresyjna</mat-card-title>
+					<mat-card-subtitle>Fotograf</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>No co ja mogę powiedzieć? Na zdjęciach tego nie widać, na żywo to wulkan ciągle gadającej energii, który doskonale potrafi wyciągnąć z otoczenia to co najlepsze plus zaproponować coś co prowadzi do naprawdę świetnych zdjęć (a dodatkowo pozuje grzecznie pod światło, ze światłem, słońce w oczy, słońce w plecy, upał, piach, trawa, liście, robaki). Polecam ;)</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank" href="https://www.maxmodels.pl/fotograf-impresyjna.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+  <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>Black_Batcave</mat-card-title>
+					<mat-card-subtitle>Projektant</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Adrianna jest bardzo zdolną, ambitną modelką, polecam x3 </p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/projektant-Black_Batcave.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+  <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>MajaP</mat-card-title>
+					<mat-card-subtitle>Fotograf</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Wspaniała współpraca! :) Adrianna to bardzo uzdolniona i naturalna dziewczyna. Słucha uwag, rzuca pomysłami, dba o detale i stylizację. Przygotowana do zdjęć w każdym calu, wspaniale pozuje i ma cudowny uśmiech. ;) Mam nadzieję, że zrealizujemy jeszcze razem nie jedną sesję. :)</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/fotograf-majap.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+  <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>Mex_Stazynska</mat-card-title>
+					<mat-card-subtitle>Wizażysta</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Bardzo przyjemna modelka, współpraca na ogromnym poziomie. Atmosfera bardzo na plus, bardzo naturalna i ciepla. Polecam z uśmiechem, z nią sukces murowany!!!</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/wizazysta-mex_starzynska.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+   <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>Stuffx</mat-card-title>
+					<mat-card-subtitle>Fotograf</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Wspolpraca z Ada nalezy tak samo do przyjemnych jak i owocnych. Jest to jedna z moich ulubionych modelek, z potencjalem do wszelkich stylizacji, oraz otwartosci do sluchania rad fotografa jak i z wlasnym zapleczem i doswiadczeniem w odpowiednim pozowaniu. Zdecydowanie zazdroszcze kazdemu kto z nia wspolpracuje gdy to nie jestem ja ;)</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/fotograf-stuffx.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+   <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>Liliannanastazja</mat-card-title>
+					<mat-card-subtitle>Modelka</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Super, extra modelka! Do dogadania , tańca i różańca :) Pomimo bardzo ograniczonych warunków i czasu pracowało mi się z Adą cudownie, mam nadzieję, że to nie ostatnia nasza współpraca! Polecam</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/modelka-liliannanastasia.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+   <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>DorotaOsa_Makeup</mat-card-title>
+					<mat-card-subtitle>Wizażysta</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Przemiła dziewczyna! Polecam wszystkim tą fajną osóbkę!</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/wizazysta-dorotaosa_makeup.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+   <mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title>majkap</mat-card-title>
+					<mat-card-subtitle>Modelka</mat-card-subtitle>
+				</mat-card-header>
+				<mat-card-content>
+				<p>Zawsze uśmiechnięta. Otwarta na wszelkie propozycje. 
+Kolejna wspólna sesja i na 100% nie ostatnia. polecam! <3</p>
+				</mat-card-content>
+				<mat-card-actions>
+					<button mat-raised-button color="accent"><mat-icon class="example-tab-icon">thumb_up</mat-icon> Like</button>
+	    <button mat-raised-button color="warn"><a target="_blank"  href="https://www.maxmodels.pl/modelka-majkap.html">Portfolio</a></button>
+	  </mat-card-actions>
+	</mat-card>
+</mat-tab>
+	</mat-tab-group>
+</div>

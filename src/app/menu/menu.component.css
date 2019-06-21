@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Pacifico|Shadows+Into+Light+Two&display=swap&subset=latin-ext');
+.big
+{
+    display:flex;
+}
+.small
+{
+    /* height: 200px;
+    width: 200px; */
+    justify-content: center;
+    margin:auto;
+}
+.active {
+      color: rgba(33, 100, 89, 0.692);
+    }
+
+    * {
+      outline: none;
+    }
+
+    ul {
+        /* display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: right; */
+      /* background: rgba(207, 207, 255, 0.678); */
+      list-style: none;
+      padding:5px;
+      margin: 5px;
+      justify-content: center;
+    }
+
+    /* font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Julius Sans One', sans-serif; */
+
+    ul li {
+      display: inline-block;
+      width: 100px;
+      text-align: center;
+      font-family: 'Caveat', cursive;
+      font-size: 30px;
+      font-weight: bold;
+      font-variant: small-caps;
+    }
+
+    ul li:hover {
+      cursor: pointer;
+      opacity: .5;
+    }

@@ -1,0 +1,96 @@
+<div class="big">
+  <div class="small"> 
+<mat-tab-group>
+	<mat-tab label="O mnie">
+		<mat-card class="example-card">
+			<mat-card-header>
+				<div mat-card-avatar class="example-header-image"></div>
+				<mat-card-title> Adrianna Ubych</mat-card-title>
+				<mat-card-subtitle>Poznań, Koło, Konin </mat-card-subtitle>
+			</mat-card-header>
+			<!-- <img mat-card-image src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/21055955_1451093668278900_3979021852508645428_o.jpg?_nc_cat=100&_nc_eui2=AeGyxIiltZPr2bVSLU-e4qUsKa8JTerOV2yF58wdjMevck4yK7-mBHn9IIiblSHsA3_BpNvSQM_ZP0fFKNjV3nMqmH76icLeCQWVduf8-TvgwA&_nc_ht=scontent-waw1-1.xx&oh=b802d28a4ca81c5eb9616477dd5981b1&oe=5D95A08B" class="obraz"> -->
+		  <mat-card-content>
+		    <p class="opis">
+          „I solemnly swear that I am up to no good.” ~Fred&George<br>
+          Siemanderrro, z tej strony Adrianna, czyli uparciuszek i wulkan uśmiechu.<br>
+          Umysł ścisły i artystyczna dusza. Matematyczne spojrzenie na piękno, bądź piękne spojrzenie na matematykę. Jak kto woli.<br>
+          Uparta perfekcjonistka. ‘Po mojemu’, czyli dokładnie i dopracowane w każdym calu. Nie ma innej opcji.<br>
+          Pewna siebie. Uśmiech na nic innego nie pozwala, zawsze wchodzi pierwszy, potem ja.<br>
+          Otwarta na ludzi i nowe sytuacje. Chętnie poznaję co mi nieznane wyrabiając sobie swoją własną opinię.<br>
+          Od tamtego roku razem z trójką znajomych prowadzę kanał na Youtubie <a href="https://www.youtube.com/channel/UCMFab6n5pyIRQk5_F7R_Pzg" target="_blank">"Parówki z demogorgona"</a> audycja zawiera lokowanie produktu :D<br>
+          Zaproszeń na planszówki nie odmawiam, bez róznicy czy to imprezówki czy strategiczne. Chyba, że jestem na drugim końcu świata.<br>
+          Rozmów o GOT i PLiO nie kończę i zbieram PoPy z GoT. Są cudne.<br>
+          Uwielbiam oglądać filmy, seriale, spektakle. Wszystkie. A NIE! Oprócz horrorów. Tak to wszystkie.<br>
+          Słucham muzyki. Każdej muzyki. Zależy od dnia, pogody, nastroju. Pomaga to przetrwać na KAŻDEJ imprezie, spotkaniu, wyjeździe. Polecam.<br>
+          Książki czytam. Zazwyczaj te, na których podstawie są filmy, seriale, spektakle. Bywa.<br>
+          Nie nienawidzę. We mnie nie ma nienawiści. To pewnie też przez uśmiech. Tak sądzę.<br>
+          Do tego gadam. Gadam jak najęta. Szybciej mówię niż myślę, ale częściej ciężko mnie zrozumieć, bo mówię szybciej niż inny myślą. Przepraszam.<br>
+          To tyle o mnie. PEACE! ;)<br>
+		    </p>
+		  </mat-card-content>
+		</mat-card>
+	</mat-tab>
+	<mat-tab label="Doświadczenie/wymiary">
+			<mat-list role="list">
+				<mat-list-item role="listitem">Doświadczenie: <p class="wyniki">Średnie</p>
+				</mat-list-item>
+				<mat-list-item role="listitem">Staż: <p class="wyniki">6 lat</p>
+				</mat-list-item>
+			</mat-list>
+			<mat-divider></mat-divider>
+			<mat-accordion>
+				<mat-expansion-panel>
+					<mat-expansion-panel-header>
+						<mat-panel-title>
+							Wymiary
+						</mat-panel-title>
+					</mat-expansion-panel-header>
+					<table matSort (matSortChange)="sortData($event)">
+						<tr *ngFor="let wymiary of sortedData">
+							<td>{{wymiary.name}}</td>
+							<td class="srodek">{{wymiary.datas}}</td>
+							<td>{{wymiary.unit}}</td>
+						</tr>
+					</table>
+				</mat-expansion-panel>
+			</mat-accordion>
+			<mat-accordion>
+				<mat-expansion-panel>
+					<mat-expansion-panel-header>
+						<mat-panel-title>
+							Wygląd
+						</mat-panel-title>
+					</mat-expansion-panel-header>
+					<table matSort (matSortChange)="sortData($event)">
+						<tr *ngFor="let wyglad of sortedData1">
+							<td>{{wyglad.name}}</td>
+							<td class="srodek">{{wyglad.datas}}</td>
+							<td>{{wyglad.unit}}</td>
+						</tr>
+					</table>
+				</mat-expansion-panel>
+			</mat-accordion>
+	</mat-tab>
+	<mat-tab label="Zakres pracy">
+		<table mat-table [dataSource]="dataSource2" class="mat-elevation-z8">
+			<ng-container matColumnDef="position">
+				<th mat-header-cell *matHeaderCellDef> No. </th>
+				<td mat-cell *matCellDef="let element"> {{element.position}} </td>
+			</ng-container>
+			<ng-container matColumnDef="name">
+				<th mat-header-cell *matHeaderCellDef> Name </th>
+				<td mat-cell *matCellDef="let element"> {{element.name}} </td>
+			</ng-container>
+			<ng-container matColumnDef="activ">
+				<th mat-header-cell *matHeaderCellDef> </th>
+				<td mat-cell *matCellDef="let element" class="clear"><i class="material-icons">
+ {{element.activ ? 'done_outline' : 'highlight_off'}}
+</i></td>
+			</ng-container>
+			<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+			<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+		</table>
+	</mat-tab>
+</mat-tab-group>
+  </div>
+</div>

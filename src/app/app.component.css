@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Pacifico|Shadows+Into+Light+Two&display=swap&subset=latin-ext');
+/* font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Julius Sans One', sans-serif; */
+
+
+.big
+{ justify-content: center;
+    display:flex;
+}
+.small
+{
+    /* height: 200px;
+    width: 200px; */
+    justify-content: center;
+    margin:auto;
+}
+
+.stopka{
+  color:white;
+  font-size:15px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Julius Sans One', sans-serif;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  z-index: -1;
+}
+
+/* iframe{
+  justify-content: center;
+min-width: 150px; 
+min-height: 100px;
+max-width: 700px;
+max-height: 450px;
+margin: 20px auto;
+}  */

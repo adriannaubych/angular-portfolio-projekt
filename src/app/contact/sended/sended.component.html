@@ -1,0 +1,18 @@
+<div class="tlo">
+	<div class="opis">Formularz został wysłany! Odezwę się najszybciej jak mogę byśmy stworzyli razem coś pięknego!</div>
+	<form class="example-form">
+		<mat-form-field class="example-form">
+			<input matInput placeholder="Twoje imię" [value]="imie" [readonly]="true">
+  </mat-form-field>
+    <mat-form-field class="example-form">
+    <input matInput placeholder="Twoje nazwisko" [value]="nazwisko" [readonly]="true">
+  </mat-form-field>
+  <mat-form-field class="example-form">
+    <input matInput placeholder="Adres e-mail, na który dostaniesz odpowiedź" [value]="emaill" [readonly]="true">
+  </mat-form-field>
+    <mat-form-field  class = "example-full-width">
+    <input  type = "tel"  matInput  placeholder = "Twój numer telefonu, jeśli podałeś" [value]="tel" [readonly]="true">
+  </mat-form-field >
+</form>
+<button mat-stroked-button color="accent" (click)="handleLogout()">Wróć do strony formularza</button>
+</div>

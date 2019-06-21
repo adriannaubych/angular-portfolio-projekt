@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Pacifico|Shadows+Into+Light+Two&display=swap&subset=latin-ext');
+/* font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Julius Sans One', sans-serif; */
+
+.tlo{
+  background: rgba(255, 255, 255, 0.699);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.opis{
+margin: 10px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 20px;
+}

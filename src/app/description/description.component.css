@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Julius+Sans+One|Open+Sans+Condensed:300,300i,700|Pacifico|Shadows+Into+Light+Two&display=swap&subset=latin-ext');
+
+mat-tab-group{
+  max-width: 550px;
+}
+
+.big
+{
+  background: rgba(246, 253, 255, 0.788);
+  display:flex;
+}
+.small
+{
+   /* height: 200px;
+    width: 200px; */
+    justify-content: center;
+    margin:auto;
+}
+
+.example-header-image {
+  height: 90px;
+  width: 90px;
+  background-image: url('https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/12728997_984751614913110_6900519254171820782_n.jpg?_nc_cat=103&_nc_eui2=AeHqc3nrXnC1N2s7NI-SUZbu4Tc3XFv1Zqn8t6rpXu2OSsfTxZYwLYmtRN3SsOsO2z8f_UBIIIsszBeqwanG6sh6GkPfNUfLZRpOjQLXiPot4A&_nc_ht=scontent-waw1-1.xx&oh=5838a6b7d79ae8e7cc144df28cae84bc&oe=5D872986');
+  background-size: cover;
+}
+
+.mat-card{
+  background: transparent;
+  padding:0px;
+  margin: 0px !important;
+}
+
+.mat-tab-label{
+  padding: 0px 10px !important;
+}
+
+mat-card-header{
+  padding: 30px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+/* font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Julius Sans One', sans-serif; */
+
+.opis{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px;
+  padding: 20px;
+  /* max-width: 400px; */
+  margin: 0 0 10px 0;
+  max-height: 400px;
+}
+
+mat-list{
+  background: rgba(166, 205, 255, 0.062);
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+mat-list-item{
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+  font-size: 30px !important;
+  /* font-variant: small-caps; */
+}
+mat-panel-title{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 23px !important;
+}
+mat-expansion-panel{
+  background: rgba(255, 192, 203, 0.267);
+}
+
+.wyniki{
+  margin-left: 40px;
+}
+
+.srodek{
+  text-align: right;
+  padding-right: 0px; 
+}
+
+tr{
+  /* background: pink; */
+  margin: 10px;
+}
+
+td, th{
+  margin: 3px;
+  padding: 5px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px !important;
+  font-variant: small-caps;
+}
+
+.clear{
+  font-variant: none;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-table{
+  background: transparent;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 0, 106);
+}
