@@ -17,7 +17,6 @@ export class GalleryComponent {
     'https://static.maxmodels.pl/photos/d/0/f1/d0f10e49800e9bcff83980af202b5a0d_224644.jpg',
     'https://static.maxmodels.pl/photos/7/e/2a/7e2aff3c25c150cd081358847dceb731_224644.jpg',
     'https://static.maxmodels.pl/photos/b/c/f3/bcf312e056d46934ceae1d419a8a20dd_224644.jpg',
-    'https://static.maxmodels.pl/photos/3/0/1d/301d08f13b5735b17d9663e195a3b6c1_224644.jpg',
     'https://static.maxmodels.pl/photos/4/c/34/4c34d0273212be2a6ae03653572b3323_224644.jpg',
     'https://static.maxmodels.pl/photos/6/a/d2/6ad2da7a3ea7eb670197d598f4706a92_224644.jpg',
     'https://static.maxmodels.pl/photos/6/3/86/6386695315a24b45fdf24bd484e8a670_224644.jpg',

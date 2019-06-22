@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OpinionsComponent {
   inputValue = '';
-  todos = ['super pf', 'Sesja w afro najlepsza'];
+  imie = '';
+  todos = ['super pf - AnnPhoto', 'Sesja w afro najlepsza - Kinga Olczak'];
   
   onClick() {
-    this.todos.push(this.inputValue);
+    this.todos.push(this.inputValue + ' - ' + this.imie);
     this.inputValue = '';
   }
 }

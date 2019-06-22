@@ -39,7 +39,7 @@ li.active {
 }
 
 section {
-  width: 1500px;
+  max-width: 1500px;
   padding: 10px;
   position: relative;
   margin-top: 50px;

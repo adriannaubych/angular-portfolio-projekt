@@ -20,3 +20,23 @@ html{
 /* .mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
     transform: none !important;
 } */
+
+@media only screen and (max-width: 1350px) {
+  html{
+  background: url("https://static.maxmodels.pl/photos/4/c/34/4c34d0273212be2a6ae03653572b3323_224644.jpg");
+  height: 100% !important; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html{
+  background: rgb(255, 220, 225);
+  height: 100% !important; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
