@@ -13,5 +13,6 @@ export class OpinionsComponent {
   onClick() {
     this.todos.push(this.inputValue + ' - ' + this.imie);
     this.inputValue = '';
+    this.imie = '';
   }
 }
