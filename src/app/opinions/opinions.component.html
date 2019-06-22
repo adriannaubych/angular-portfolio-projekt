@@ -7,7 +7,6 @@
 			</ng-template>
 			<mat-form-field class="example-full-width">
 				<input matInput type="text" placeholder="Dodaj komentarz" [(ngModel)]="inputValue"(keyup.enter)="onClick()">
-        <input matInput placeholder="Imię" [(ngModel)]="imie" [ngModelOptions]="{standalone: true}" required pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$">
 		    </mat-form-field>
 		    <br>
 		    <button mat-button color="accent" (click)="onClick()">Dodaj!</button>
